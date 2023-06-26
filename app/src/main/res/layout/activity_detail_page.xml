@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPage">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="-127dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <Button
+          android:id="@+id/favorite"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text=""
+          tools:ignore="SpeakableTextPresentCheck" />
+
+      <ImageView
+          android:id="@+id/imageDraw"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:ignore="ImageContrastCheck"
+          tools:srcCompat="@tools:sample/avatars" />
+
+      <TextView
+          android:id="@+id/abstractText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@color/black"
+          android:paddingTop="10dp"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/abstractText2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@color/black"
+          android:paddingTop="10dp"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/abstactText3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@color/black"
+          android:paddingTop="10dp"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/fullText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="15dp"
+          android:text="lale"
+          android:textColor="@color/black" />
+
+      <LinearLayout
+          android:paddingTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleImp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/beginTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lastTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/drawTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/announce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/totalsuprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

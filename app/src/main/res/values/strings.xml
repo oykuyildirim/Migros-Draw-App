@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Migros Çekilişleri</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Migros Çekilişleri</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Yeni Başlayanlar</string>
+    <string name="menu_slideshow">Araba Kazan</string>
+    <string name="menu_telephonedraw">Telefon/Tablet Kazan</string>
+    <string name="menu_holidaydraw">Tatil Kazan</string>
+    <string name="menu_freedraw">Bedava Katılım</string>
+    <string name="menu_favorites">Takip Ettiklerim</string>
+</resources>

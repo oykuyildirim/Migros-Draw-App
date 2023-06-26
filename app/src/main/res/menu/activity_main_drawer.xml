@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_beginner"
+            android:icon="@drawable/beginicon"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_cardraw"
+            android:icon="@drawable/caricon"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_telephonedraw"
+            android:icon="@drawable/phoneicon"
+            android:title="@string/menu_telephonedraw" />
+
+        <item
+            android:id="@+id/nav_holidaydraw"
+            android:icon="@drawable/holidayicon"
+            android:title="@string/menu_holidaydraw" />
+        <item
+            android:id="@+id/nav_freedraw"
+            android:icon="@drawable/freeicon"
+            android:title="@string/menu_freedraw" />
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/hastagicon"
+            android:title="@string/menu_favorites" />
+
+    </group>
+</menu>

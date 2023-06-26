@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kotlinegitim.final_kotlin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_beginner"
+        android:name="com.kotlinegitim.final_kotlin.ui.BeginnerDraw.BeginnerDrawFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_beginner" />
+
+    <fragment
+        android:id="@+id/nav_cardraw"
+        android:name="com.kotlinegitim.final_kotlin.ui.CarDraw.CarDrawFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_cardraw" />
+
+    <fragment
+        android:id="@+id/nav_telephonedraw"
+        android:name="com.kotlinegitim.final_kotlin.ui.telephonedraw.TelephoneDrawFragment"
+        android:label="@string/menu_telephonedraw"
+        tools:layout="@layout/fragment_telephone_draw" />
+    <fragment
+        android:id="@+id/nav_holidaydraw"
+        android:name="com.kotlinegitim.final_kotlin.ui.holidaydraw.HolidayDrawFragment"
+        android:label="@string/menu_holidaydraw"
+        tools:layout="@layout/fragment_holiday_draw" />
+    <fragment
+        android:id="@+id/nav_freedraw"
+        android:name="com.kotlinegitim.final_kotlin.ui.freeparticipation.FreeParticipationFragment"
+        android:label="@string/menu_freedraw"
+        tools:layout="@layout/fragment_free_participation_draw" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.kotlinegitim.final_kotlin.ui.Favorites.Favorites"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_favorites_layout" />
+</navigation>
