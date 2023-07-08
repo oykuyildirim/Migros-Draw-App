@@ -5,7 +5,7 @@ Bu android projesi ile migrosun çekilişleri ile ilgili bilgi verdiği linklerd
   <br>Name | Version |</br>
    Kotlin | 1.8.20 | 
   <br>Firebase Database | 20.2.2 |</br>
-  Json  | 1.16.1 |
+  Jsoup  | 1.16.1 |
   
 # Project Display Image <p> 
  <a href="https://github.com/oykuyildirim/Migros-Draw-App/assets/37236494/902c7af5-014c-41c4-bac2-f7904aa3bffd" >
